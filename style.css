@@ -477,6 +477,9 @@ footer{
     html{
         font-size: 35%;
       }
+      .nav-btn{
+        margin: 20px 0;
+      }
       
       .hero-secound-image{
         max-width: 100%;
