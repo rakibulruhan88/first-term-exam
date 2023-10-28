@@ -103,7 +103,7 @@ input{
     gap: 50px;
 }
 .hero-content-first{
-    width: 600px;
+    max-width: 600px;
 }
 .hero-content-first h1{
     font-size: 7rem;
@@ -114,8 +114,13 @@ input{
     margin: 3rem 0;
 }
 .hero-image-first{
-    padding: 30px;
+    
     opacity: 0.97;    
+}
+.hero-image-first img{
+    max-width: 100%;
+    max-height: 100%;
+
 }
 
 /* hero-section-end */
@@ -126,7 +131,7 @@ input{
     align-items: center;
 }
 .hero-secound-content{
-    width: 500px;
+    max-width: 500px;
     justify-content: space-between;  
 }
 .s2-top{
@@ -144,9 +149,15 @@ input{
    margin: 10px 0; 
 }
 .hero-secound-image{
-    width: 570px;
+    max-width: 370px;
     
 }
+
+.hero-secound-image img {
+    width: 100%;
+    height: 100%;
+}
+
 .hero-secound-image h2{
     font-size: 4rem;
     padding: 4rem 0;
@@ -236,7 +247,7 @@ input{
 }
 .customer-content p{
     margin: 50px 0;
-    width: 400px;
+    max-width: 400px;
 }
 .section-5{
     background-color: #80E2FF;
@@ -257,7 +268,7 @@ input{
     padding: 80px;
 }
 .find-store-flex{
-    width: 450px;
+    max-width: 450px;
 }
 .find-store-flex h2{
     margin: 30px 0;
@@ -276,7 +287,7 @@ input{
     padding: 100px 0;
 }
 .footer-content{
-    width: 570px;
+    max-width: 570px;
     display: grid;
     grid-gap: 20px;
 }
@@ -390,16 +401,16 @@ footer{
         display: none;
     }
     .hero-secound-image{
-        width: 120%;
+        max-width: 100%;
       }
     .hero-content-first{
         order: 2;
-        width: 350px;
+        max-width: 350px;
     }
-    .hero-image-first{
-        width: 540px;
+    /* .hero-image-first{
+        max-width: 540px;
         padding: 10px;
-    }
+    } */
    
     
     .hero-section-2{
@@ -435,7 +446,7 @@ footer{
         flex-direction: column;
     }
     .footer-content{
-        width: 300px;
+        max-width: 300px;
         order: 2;
     }
     
@@ -446,11 +457,11 @@ footer{
     font-size: 35%;
   }
   .hero-image-first{
-    width: 150%;
+    max-width: 100%;
   }
 
   .hero-secound-image{
-    width: 140%;
+    width: 100%;
   }
   .provide-img{
     display: none;
@@ -466,12 +477,9 @@ footer{
     html{
         font-size: 35%;
       }
-      .hero-image-first{
-        width: 150%;
-      }
-    
+      
       .hero-secound-image{
-        width: 140%;
+        max-width: 100%;
       }
       .provide-img{
         display: none;
